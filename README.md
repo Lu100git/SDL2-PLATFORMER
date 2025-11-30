@@ -6,9 +6,12 @@ I hope this project is usefull.
 opengameart.org and itch.io
 
 # warrior artist:
+clembod
 
+https://clembod.itch.io/warrior-free-animation-set
 
 # music
 remaxim - vergine tutto amore:
+
 https://opengameart.org/content/durante-vergine-tutto-amore
 
