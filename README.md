@@ -10,8 +10,19 @@ clembod
 
 https://clembod.itch.io/warrior-free-animation-set
 
+# background and tileset:
+Jetrel
+
+https://opengameart.org/content/castle-platformer
+
+
 # music
 remaxim - vergine tutto amore:
 
 https://opengameart.org/content/durante-vergine-tutto-amore
+
+# sound effects
+SkyRae
+
+https://opengameart.org/content/female-warrior-grunts
 
