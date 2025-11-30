@@ -2,7 +2,7 @@
 
 /*
     I coded this from scratch, horrible experince 1 / 10
-    but I learned about CSV files, this coule be cosnsider as my
+    but I learned about CSV files, this could be cosnsider as my
     Matix tile map gen, no AI was used here, unly pure skill and pain
 */
 
