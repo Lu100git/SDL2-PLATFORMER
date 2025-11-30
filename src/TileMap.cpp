@@ -3,7 +3,8 @@
 /*
     I coded this from scratch, horrible experince 1 / 10
     but I learned about CSV files, this could be cosnsider as my
-    Matix tile map gen, no AI was used here, unly pure skill and pain
+    Matix tile map gen, no AI was used here, unly pure skill, pain
+    and faith, lots and lots of faith
 */
 
 TileMap::TileMap(string texture_path, string csv_path, SDL_Renderer*& renderer){
