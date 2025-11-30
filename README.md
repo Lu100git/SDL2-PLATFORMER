@@ -10,6 +10,5 @@ opengameart.org and itch.io
 
 # music
 remaxim - vergine tutto amore:
-# 
 https://opengameart.org/content/durante-vergine-tutto-amore
 
