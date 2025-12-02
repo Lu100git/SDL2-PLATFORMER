@@ -99,7 +99,7 @@ void Game::begin(){
             switch(current_room){
                 case Rooms::ENTRANCE:
                     //fade out
-                    if(player.getPos().x + player.getWidth() > WINDOW_WIDTH){
+                    if(player.getPos().x > WINDOW_WIDTH){
                         fader_alpha += 12;
                         if(fader_alpha > 255 ){
                             current_room = Rooms::ROOM1A;
@@ -135,7 +135,7 @@ void Game::begin(){
 
                     }
 
-                    else if(player.getPos().x + player.getWidth() > WINDOW_WIDTH){
+                    else if(player.getPos().x  > WINDOW_WIDTH){
                         fader_alpha += 12;
                         if(fader_alpha > 255 ){
                             fader_alpha = 255;
