@@ -32,7 +32,6 @@ void Game::begin(){
         fader.y = 0;
         fader.w = WINDOW_WIDTH;
         fader.h = WINDOW_HEIGHT;
-        int fader_alpha = 0;
         Camera camera;
         Player player(0,WINDOW_HEIGHT / 2,80,120,"assets/warrior.png", renderer);
         player.setSpriteRectW(69);
@@ -65,6 +64,7 @@ void Game::begin(){
         music = Mix_LoadMUS( "sound/durante - vergine tutto amore reberb version.ogg" );
         if( music == nullptr ){
             cout << "Failed to load music! SDL_mixer Error: " << Mix_GetError() << endl;
+            cout << "error at file Game.cpp line 65" << endl;
             sdl_ready = false;
             game_is_running = false;
         }

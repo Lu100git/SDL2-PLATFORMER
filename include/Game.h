@@ -49,7 +49,7 @@ class Game{
         bool testing_camera = false;
         std::vector<std::unique_ptr<TileMap>> maps;
         short unsigned int current_room = 0;
-        unsigned short int fader_alpha = 0;
+        short int fader_alpha = 0;
         SDL_Rect fader;
 };
 
