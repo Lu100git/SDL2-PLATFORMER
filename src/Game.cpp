@@ -62,9 +62,11 @@ void Game::begin(){
         player.testing_bounds = false;
         testing_camera = false;
 
-        music = Mix_LoadMUS( "sound/durante - vergine tutto amore reberb version.wav" );
+        music = Mix_LoadMUS( "sound/durante - vergine tutto amore reberb version.ogg" );
         if( music == nullptr ){
             cout << "Failed to load music! SDL_mixer Error: " << Mix_GetError() << endl;
+            sdl_ready = false;
+            game_is_running = false;
         }
 
         // $$$ get the previus time before loop begins to apply delta time $$$
