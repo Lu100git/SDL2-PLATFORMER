@@ -1,5 +1,4 @@
 #!/bin/bash
-clear
 
 if [[ `whoami` != root ]]; then
 	echo "you must be root to execute this program, TRUST ME BRO!"
@@ -11,6 +10,7 @@ if [[ `whoami` != root ]]; then
 	exit
 fi
 
+clear
 
 echo "	.: Platformer Compiler script (fedora version) :."
 echo "in order to properly compile this program"
