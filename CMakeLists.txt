@@ -26,3 +26,4 @@ add_executable(main ${SOURCES})
 # Link SDL2
 target_link_libraries(main SDL2::SDL2 SDL2::SDL2main SDL2_image::SDL2_image SDL2_mixer::SDL2_mixer)
 
+install(TARGETS main DESTINATION bin)
